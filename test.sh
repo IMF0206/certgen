@@ -55,6 +55,7 @@ do
         mv prvkey0.bin $dirname/
 done;
 #tar -czvf csr.tar *dir
+rm -rf csr.zip
 zip -r csr.zip *dir
 rm -rf $prefix*
 date
